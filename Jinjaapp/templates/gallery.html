@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}about-eMobilis{% endblock %}
+{% block header %}Welcome to gallery page{% endblock %}
+{% block content %}
+    <p>This is my gallery page</p>
+    <img src="{% static 'images/chicago.jpeg' %}" alt="">
+    <img src="{% static 'images/wagido.jpeg' %}" alt="">
+    <img src="{% static 'images/mbp.jpeg' %}" alt="">
+{% endblock %}
